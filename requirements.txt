@@ -1,0 +1,26 @@
+torch>=1.0.0
+torchvision
+dominate>=2.3.1
+dill
+scikit-image
+
+
+----------------- End -------------------
+Traceback (most recent call last):
+  File "C:\Users\Bhagat\Desktop\face-app\MichiGAN-master\demo.py", line 521, in <module>
+    opt = DemoOptions().parse()
+  File "C:\Users\Bhagat\Desktop\face-app\MichiGAN-master\options\base_options.py", line 236, in parse
+    torch.cuda.set_device(opt.gpu_ids[0])
+  File "C:\Users\Bhagat\anaconda3\lib\site-packages\torch\cuda\__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+Today Task
+1. Worked with designing part and improve the colors quality .
+2. Worked with Custom functions and try to concatinate both function together .
+3. Tried to create th eapi that response two messages from the bot side at th ediffrent time stamp .
+
+Project difficulty :
+At a same time only one function is work from two functions .
